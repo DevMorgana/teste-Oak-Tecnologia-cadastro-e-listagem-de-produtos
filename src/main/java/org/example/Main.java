@@ -10,7 +10,7 @@ public class Main {
         while (true) {
             exibirMenu();
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir nova linha
+            scanner.nextLine();
 
             switch (opcao) {
                 case 1:
